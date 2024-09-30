@@ -78,6 +78,8 @@ public class StatusUI extends Window implements StatusSubject {
 
         barWidth = hpBar.getWidth();
         barHeight = hpBar.getHeight();
+
+        this.setSize(this.getWidth() * 1.2f, this.getHeight());
     }
 
     private void handleHpBar() {
