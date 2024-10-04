@@ -28,6 +28,10 @@ public class ToppleRoad1 extends Map {
         initSpecialEntityPosition(rabite2);
         mapEntities.add(rabite2);
 
+        Entity rabite3 = EntityFactory.getInstance().getEntityByName(EntityFactory.EntityName.RABITE3);
+        initSpecialEntityPosition(rabite3);
+        mapEntities.add(rabite3);
+
     }
 
     @Override
