@@ -97,6 +97,7 @@ public class InventoryItem extends Image {
     private ItemTypeID itemTypeID;
     private ItemRarity itemRarity;
     private ItemSetID itemSetID;
+    private String itemName;
     private String itemShortDescription;
     private int itemValue;
 
@@ -116,6 +117,7 @@ public class InventoryItem extends Image {
 
     public InventoryItem(InventoryItem inventoryItem) {
         super();
+        this.itemName = inventoryItem.getItemName();
         this.itemTypeID = inventoryItem.getItemTypeID();
         this.itemAttributes = inventoryItem.getItemAttributes();
         this.itemUseType = inventoryItem.getItemUseType();
@@ -140,6 +142,14 @@ public class InventoryItem extends Image {
 
     public void setItemValue(int itemValue) {
         this.itemValue = itemValue;
+    }
+
+    public String getItemName() {
+        return itemName;
+    }
+
+    public void setItemName(String itemName) {
+        this.itemName = itemName;
     }
 
     public ItemTypeID getItemTypeID() {
