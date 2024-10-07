@@ -46,6 +46,10 @@ public class Topple extends Map {
         Entity townfolk5 = EntityFactory.getInstance().getEntityByName(EntityFactory.EntityName.TOWN_FOLK5);
         initSpecialEntityPosition(townfolk5);
         mapEntities.add(townfolk5);
+
+        Entity townblacksmith = EntityFactory.getInstance().getEntityByName(EntityFactory.EntityName.TOWN_BLACKSMITH);
+        initSpecialEntityPosition(townblacksmith);
+        mapEntities.add(townblacksmith);
     }
 
     @Override
