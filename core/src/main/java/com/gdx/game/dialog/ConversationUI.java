@@ -118,11 +118,11 @@ public class ConversationUI extends Window {
             fullFilenamePath = COURTESY_PHRASES_PATH;
         }
 
-
+        currentEntityID = entityConfig.getEntityID();
         currentEntityName = entityConfig.getEntityName();
 
         if (currentEntityName == null) {
-            currentEntityName = entityConfig.getEntityID();
+            currentEntityName = currentEntityID;
         }
 
         this.getTitleLabel().setText(currentEntityName);
