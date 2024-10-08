@@ -1,4 +1,5 @@
 {
+	entityName : Sigma Shieldkeeper
 	entityID : TOWN_GUARD
 	entityStatus : GUARD
 	state : IDLE

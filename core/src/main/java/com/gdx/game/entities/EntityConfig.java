@@ -10,6 +10,7 @@ public class EntityConfig {
     private Array<InventoryItem.ItemTypeID> inventory;
     private Entity.State state = Entity.State.IDLE;
     private Entity.Direction direction = Entity.Direction.DOWN;
+    private String entityName;
     private String entityID;
     private String entityStatus;
     private String conversationConfigPath;
@@ -45,6 +46,7 @@ public class EntityConfig {
     public EntityConfig(EntityConfig config) {
         state = config.getState();
         direction = config.getDirection();
+        entityName = config.getEntityName();
         entityID = config.getEntityID();
         entityStatus = config.getEntityStatus();
         conversationConfigPath = config.getConversationConfigPath();
@@ -133,6 +135,14 @@ public class EntityConfig {
 
     public void setResumeConfigPath(String resumeConfigPath) {
         this.resumeConfigPath = resumeConfigPath;
+    }
+
+    public String getEntityName() {
+        return entityName;
+    }
+
+    public void setEntityName(String entityName) {
+        this.entityName = entityName;
     }
 
     public String getEntityID() {

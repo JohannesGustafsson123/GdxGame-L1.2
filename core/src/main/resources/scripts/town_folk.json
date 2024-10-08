@@ -1,5 +1,6 @@
 [
 	{
+		entityName : NPC NoCapper
 		entityID : TOWN_FOLK1
 		entityStatus : VILLAGER
 		state : IMMOBILE
@@ -51,6 +52,7 @@
 		]
 	},
 	{
+		entityName : Gyatt Farmer
 		entityID : TOWN_FOLK2
 		entityStatus : VILLAGER
 		state : IMMOBILE
@@ -101,6 +103,7 @@
 		]
 	},
 	{
+		entityName : Ohio Vibes
 		entityID : TOWN_FOLK3
 		entityStatus : VILLAGER
 		state : IMMOBILE
@@ -151,6 +154,7 @@
 		]
 	},
 	{
+		entityName : Rizz Walker
 		entityID : TOWN_FOLK4
 		entityStatus : VILLAGER
 		state : IMMOBILE
@@ -201,6 +205,7 @@
 		]
 	},
 	{
+		entityName : Bussin' Baker
 		entityID : TOWN_FOLK5
 		entityStatus : VILLAGER
 		state : IMMOBILE
@@ -251,6 +256,7 @@
 		]
 	},
 	{
+		entityName : Fanum Tax Collector
 		entityID : TOWN_FOLK6
 		entityStatus : VILLAGER
 		state : IMMOBILE
@@ -301,6 +307,7 @@
 		]
 	},
 	{
+		entityName : Mewface the Merchant
 		entityID : TOWN_FOLK7
 		entityStatus : VILLAGER
 		state : IMMOBILE
@@ -351,6 +358,7 @@
 		]
 	},
 	{
+		entityName : Driplord the Fisher
 		entityID : TOWN_FOLK8
 		entityStatus : VILLAGER
 		state : IMMOBILE
@@ -401,6 +409,7 @@
 		]
 	},
 	{
+		entityName : Goofy Ahh Gardener
 		entityID : TOWN_FOLK9
 		entityStatus : VILLAGER
 		state : IMMOBILE
@@ -451,6 +460,7 @@
 		]
 	},
 	{
+		entityName : NPC Stare Master
 		entityID : TOWN_FOLK10
 		entityStatus : VILLAGER
 		state : IMMOBILE
@@ -501,6 +511,7 @@
 		]
 	},
 	{
+		entityName : Sigma Smith Jr.
 		entityID : TOWN_FOLK11
 		entityStatus : VILLAGER
 		state : IMMOBILE
@@ -551,6 +562,7 @@
 		]
 	},
 	{
+		entityName : Ohio Corn Man
 		entityID : TOWN_FOLK12
 		entityStatus : VILLAGER
 		state : IMMOBILE
@@ -601,6 +613,7 @@
 		]
 	},
 	{
+		entityName : Skibidi Skater
 		entityID : TOWN_FOLK13
 		entityStatus : VILLAGER
 		state : IMMOBILE
@@ -651,6 +664,7 @@
 		]
 	},
 	{
+		entityName : Rizzy Villager
 		entityID : TOWN_FOLK14
 		entityStatus : VILLAGER
 		state : IMMOBILE
@@ -701,6 +715,7 @@
 		]
 	},
 	{
+		entityName : GigaMouth Gossip
 		entityID : TOWN_FOLK15
 		entityStatus : VILLAGER
 		state : IMMOBILE
